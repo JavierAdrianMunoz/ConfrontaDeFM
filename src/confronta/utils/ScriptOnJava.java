@@ -20,6 +20,9 @@ import javax.script.ScriptEngineManager;
 import org.openjdk.nashorn.api.scripting.NashornScriptEngine;
 import org.openjdk.nashorn.api.scripting.NashornScriptEngineFactory;
 
+
+// * Esta clase fue hecha en un principio para la posibilidad de leer archivos, funciones o métodos en Javascript. 
+@Deprecated
 public class ScriptOnJava {
     
         public void LoadJavaScript() {            

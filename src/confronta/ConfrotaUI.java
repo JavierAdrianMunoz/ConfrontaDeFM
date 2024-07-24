@@ -608,14 +608,6 @@ private void FillTableDataLocalidades(String FilePath) {
 
 
 
-// Aplicar el filtro utilizando RowFilter.orFilter
-
-   /*      FiltrarResultadoErroneos.addActionListener(e -> {
-	       // ? TODO: Implementar filtro de texto para los resultados en color rojo
-        	//sorter.setRowFilter(RowFilter.regexFilter("\\b" + "Polygon" + "\\b"));
-            // Aplicar el filtro utilizando RowFilter.orFilter
-            //FillTableDataWithErrors(ManzanaNoTieneFrentes, table);
-        }); */
         filterField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
@@ -661,8 +653,8 @@ private void FillTableDataLocalidades(String FilePath) {
                     }
             }
         });
-        // add padding to filterField
-        //filterField.setBorder(BorderFactory.createEmptyBorder(5, 5, 10, 5));
+
+        
         filterField.setBackground(new Color(192,192,192));
         // add margin to filterfield
         Border line = BorderFactory.createLineBorder(Color.BLUE);
@@ -722,7 +714,7 @@ private void FillTableDataWithErrors(String[][] manzanaNoTieneFrentes, JTable ta
     }
 }
 
-    // Comparacion de manzanas que tengan un frente
+    // Comparación de manzanas que tengan un frente
     private boolean ManzanaHasFrente(List<String> ManzanasListCvegeo, List<String> FrentesListCvegeo, String manzana) {
         return FrentesListCvegeo.contains(manzana);
     }

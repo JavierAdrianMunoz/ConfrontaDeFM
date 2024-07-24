@@ -21,14 +21,14 @@ public class Colors {
         // MATERIAL
         public Color MaterialYellow = Color.decode("#F1C40F");
 
-        // CONSOLOA
-                // Secuencias de escape ANSI para los colores
+        // CONSOLA
+        // Secuencias de escape ANSI para los colores
          public String console_reset = "\u001B[0m"; // Resetea el estilo
          public String console_rojo = "\u001B[31m"; // Rojo
          public String console_verde = "\u001B[32m"; // Verde
          public String console_amarillo = "\u001B[33m"; // Amarillo
          public String console_azul = "\u001B[34m"; // Azul
          public String console_purpura = "\u001B[35m"; // Púrpura
-         public String console_cyan = "\u001B[36m"; // Cian
+         public String console_cyan = "\u001B[36m"; // Cían
          public String console_blanco = "\u001B[37m"; // Blanco
 }

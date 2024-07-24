@@ -20,7 +20,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import Utility.Colors;
-// ? prerequisite: Add all jar files downloaded from Apache POI download site in Java Program's build Path
+
 public class ExportToExcel{
     String sheetName;
     Map<String, Object[]> SET_DATA_EXCEL;
@@ -77,8 +77,7 @@ public class ExportToExcel{
         workbook.write(out);
         out.close();
         wasCreated = true;
-        // * Add cells to the sheet
-        // * Repeat step 3 and 4 to write the complete data
+
     }catch(Exception e){
         e.printStackTrace();
         wasCreated = false;

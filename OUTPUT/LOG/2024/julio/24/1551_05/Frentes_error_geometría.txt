@@ -1,0 +1,6 @@
+------------------------- 2024/07/24/15:07 | C:\Users\JAVIER.MOLINA\eclipse-workspace\ConfrontaDeFM\TEMP\01\011111100\PC_SE_01111110X\frentes.json ----------------------------
+------------------------- 2024/07/24/15:07 | C:\Users\JAVIER.MOLINA\eclipse-workspace\ConfrontaDeFM\TEMP\01\011111300\PC_SE_011111300\frentes.json ----------------------------
+ERROR | ROW: 6 | GEOMETRY: LineString | CVEGEO: 0300100012135070
+ERROR | ROW: 7 | GEOMETRY: LineString | CVEGEO: 0300100012135070
+ERROR | ROW: 11 | GEOMETRY: LineString | CVEGEO: 0300100012794024
+------------------------- 2024/07/24/15:07 | C:\Users\JAVIER.MOLINA\eclipse-workspace\ConfrontaDeFM\TEMP\01\011111100\PC_SE_011111100\frentes.json ----------------------------

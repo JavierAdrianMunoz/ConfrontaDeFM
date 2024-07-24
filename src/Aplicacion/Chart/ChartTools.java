@@ -94,7 +94,4 @@ public class ChartTools extends ApplicationFrame{
         demo.setVisible(true);
     }
     
-
-    /* otro acercamiento a realizar graficos de pie  */
-    
 }

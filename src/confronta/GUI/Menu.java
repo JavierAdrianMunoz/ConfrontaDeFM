@@ -256,24 +256,19 @@ static JLabel currentThemeSelected;
     
         JButton btnOpenJavascriptReader = new JButton("Integraciones");
 
-        // redondear los bordes de los botones
-        //btnOpenJsonPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-        //btnOpenJsonPanel.setBackground(colors.infoColor);
-                btnOpenJsonPanel.setForeground(Color.BLACK);
+        btnOpenJsonPanel.setForeground(Color.BLACK);
         btnOpenJsonPanel.setPreferredSize(new Dimension(200, 30));
         btnOpenJsonPanel.setIcon(new ImageIcon(".\\images\\file-json.png"));
         btnOpenJsonPanel.setFont(new Font("Poppins",Font.BOLD, 15));
         //btnOpenJsonPanel.setBorder(new RoundedBorder(15));
         panel.add(btnOpenJsonPanel, BorderLayout.SOUTH);
-        // ? redondear los bordes del boton btnOpenJavascriptReader
-        //btnOpenJavascriptReader.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
-        //btnOpenJavascriptReader.setBackground(colors.infoColor);
+
         btnOpenJavascriptReader.setForeground(Color.BLACK);
         btnOpenJavascriptReader.setPreferredSize(new Dimension(200, 30));
         btnOpenJavascriptReader.setFont(new Font("Poppins",Font.BOLD, 15));
         btnOpenJavascriptReader.setIcon(new ImageIcon(".\\images\\database-fill.png"));
         //btnOpenJavascriptReader.setBorder(new RoundedBorder(15));
-        //cambiar color al hacer clic en el boton
+        //? cambiar color al hacer clic en el botón
         btnOpenJavascriptReader.addActionListener(e -> {
             // Run a java app in a separate system process
             Process proc;
